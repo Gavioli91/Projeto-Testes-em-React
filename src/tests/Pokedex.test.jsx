@@ -27,7 +27,7 @@ describe('Testa o componente Pokedex', () => {
     renderWithRouter(<App />);
 
     const umPokemonPorVez = screen.getAllByTestId('pokemon-name');
-    expect(umPokemonPorVez.length).toEqual(1);
+    expect(umPokemonPorVez.length).toBe(1);
   });
 
   it('Testa se a Pokédex tem os botões de filtro', () => {
